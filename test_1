@@ -61,3 +61,163 @@
 #     reverse = reverse * 10 + digit
 #     num = num // 10
 # print(digit)
+
+23 FEB
+# num = int(input("enter the no:"))
+# original = 0
+# reverse = 0
+# while num > 0:
+#     digit = num % 10
+#     reverse = reverse * 10 + digit
+#     num = num // 10
+# print("reversed is:",reverse)
+# if original == reverse:
+#     print("the no is palindrome")
+# else:
+#     print("the no is not a palindrome")
+
+# num = int(input("enter the no:"))
+# original = num
+# reverse = 0
+
+# while num > 0:
+#     digit = num % 10
+#     reverse = reverse * 10 + digit
+#     num = num // 10
+# print("reversed no :",reverse)
+
+# if original == reverse:
+#     print("it is palindrome")
+# else:
+#     print("it is not a palindrome")
+
+# list = [10,20,30,40,50]
+# print(list[0])
+# print(list[-1])
+# print(list.append(60))
+# print("updatad list is :",list)
+
+# numbers = [10, 21, 30, 45, 50]
+
+# for num in numbers:
+#     if num % 2 == 0:
+#         print("even:",num)
+#     else:
+#         print("odd",num)
+# print("even numbers:",num)
+# print("odd numbers:",num)
+
+# numbers = [10,21,45,67,80]
+# even_count = 0
+# odd_count = 0
+
+# for num in numbers:
+#     if num % 2 == 0:
+#         even_count += 1
+#     else:
+#         odd_count += 1
+# print("even num:",even_count)
+# print("odd num",odd_count)
+
+# numbers = [10,35,68,45,34,89]
+# largest = numbers[0]
+# smallest = numbers[0]
+
+# for num in numbers:
+#     if num > largest:
+#         largest = num
+#     else:
+#         if num < smallest:
+#             smallest = num
+# print("largest num:", largest)
+# print("smallest num:", smallest)
+
+
+
+# numbers = [10,30,45,70,68]
+# largest = numbers[0]
+# second_largest = numbers[1]
+
+# for num in numbers:
+#     if num > largest:
+#         largest = num
+#     else:
+#         if num < largest:
+#             second_largest = num
+# print("second largest:",second_largest)
+
+# class factorial:
+#     def find_factorial(self,n):
+#         if n == 0 or n == 1:
+#             return 1
+#         else:
+#             return n * self.find_factorial(n - 1)
+# f1 = factorial()
+
+# num = int(input("enter the num:"))
+# result = f1.find_factorial(num)
+
+# print("factorail =",result)
+
+# class StudentManager:
+
+#     def __init__(self):
+#         self.students = {}   # dictionary to store name and marks
+
+#     def add_student(self, name, marks):
+#         self.students[name] = marks
+
+#     def display_students(self):
+#         for name, marks in self.students.items():
+#             print(name, "-", marks)
+
+#     def top_student(self):
+#         highest_marks = -1
+#         top_name = ""
+
+#         for name, marks in self.students.items():
+#             if marks > highest_marks:
+#                 highest_marks = marks
+#                 top_name = name
+
+#         print("Top Student:", top_name)
+
+
+# # Creating object
+# obj = StudentManager()
+
+# obj.add_student("Anitha", 85)
+# obj.add_student("Arun", 92)
+# obj.add_student("Priya", 78)
+
+# obj.display_students()
+# obj.top_student()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
